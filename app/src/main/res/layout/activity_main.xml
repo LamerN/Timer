@@ -30,21 +30,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="@string/start_button_title" />
+            android:text="@string/start_button_title"
+            android:onClick="onClickStartTimer"/>
 
         <Button
             android:id="@+id/pauseBatton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="@string/pause_button_title" />
+            android:text="@string/pause_button_title"
+            android:onClick="onClickPauseTimer"/>
 
         <Button
             android:id="@+id/resetButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:text="@string/reset_button_title" />
+            android:text="@string/reset_button_title"
+            android:onClick="onClickResetButton"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
